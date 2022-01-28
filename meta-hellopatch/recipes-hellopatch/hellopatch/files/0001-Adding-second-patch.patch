@@ -1,0 +1,23 @@
+From a1122d838dc1979b863e53c78bee89058947f26e Mon Sep 17 00:00:00 2001
+From: Youssef DALIL <youssef.dalil@elsys-design.com>
+Date: Wed, 10 Nov 2021 10:49:02 +0100
+Subject: [PATCH] Adding second patch
+
+---
+ hellopatch/files/hellopatch.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/hellopatch/files/hellopatch.c b/hellopatch/files/hellopatch.c
+index b3e14b7..fbd2ca7 100644
+--- a/hellopatch/files/hellopatch.c
++++ b/hellopatch/files/hellopatch.c
+@@ -4,5 +4,6 @@ int main (void){
+ 
+ 	printf("Hello hellopatch \n");
+ 	printf("Generate patch...\n");
++	printf("Generate patch 2 ...\n");
+ 	return 0;
+ }
+-- 
+2.25.1
+
